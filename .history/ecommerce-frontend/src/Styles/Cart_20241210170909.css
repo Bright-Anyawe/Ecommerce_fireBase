@@ -1,0 +1,74 @@
+
+.summerList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+
+.summeryListContainer {
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .05);
+
+  }
+.productPrice_TitleContainer h4 {
+  max-width: 250px;
+           margin: 50px 0 0 0;
+
+}
+
+  .summeryListSubContainer img {
+     width: 95px;
+     height: 95px;
+  }
+
+.totalSummery {
+  display: flex;
+  flex-direction: column;
+      margin: 56px 0 0 0;
+  gap: 20px;
+}
+
+.totalSummery div {
+  font-size: 1.2rem;
+}
+
+.subTotal,
+.shippingFee,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summeryListSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.summeryTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.summeryTextContainer svg {
+  width: 25px;
+}
+
+.delQtySelectedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.checkOutBtn {
+              font-size: .875rem;
+              line-height: 1rem;
+}
+

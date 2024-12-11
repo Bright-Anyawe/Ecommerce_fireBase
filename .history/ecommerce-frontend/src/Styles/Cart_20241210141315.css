@@ -1,0 +1,57 @@
+
+.summerList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+
+.summeryListContainer {
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.totalSummery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.totalSummery div {
+  font-size: 1.2rem;
+}
+
+.subTotal,
+.shippingFee,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summeryListSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.summeryTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summeryTextContainer svg {
+  width: 25px;
+}
+
+.delQtySelectedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
